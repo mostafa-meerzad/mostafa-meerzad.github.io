@@ -1,0 +1,373 @@
+@import"component";
+@import"base";
+body {
+    background-color: #EEF7F7;
+}
+
+nav {
+    height: 12vh;
+    .logo {
+        padding-left: 2rem;
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+        img:hover {
+            width: 4.3rem;
+            height: 4.3rem;
+            color: red;
+        }
+    }
+    ul {
+        margin-left: 19rem;
+        margin-right: 4rem !important;
+        .nav-item {
+            font-size: 2rem;
+            margin: 0 1rem;
+            ion-icon:hover {
+                transform: translateY(-0.3rem);
+                transition: 0.5s;
+                color: $SecondColor;
+            }
+        }
+    }
+}
+
+main {
+    .background {
+        padding: 40px;
+        margin: auto;
+        width: 90%;
+        height: 80vh;
+        // background-color: #eef7f7;
+        border-radius: 15px;
+        img {
+            width: 100%;
+            height: fit-content;
+        }
+        h1 {
+            margin: 3rem 0 2rem 0;
+            font-size: 30px;
+        }
+    }
+    .why_CV {
+        padding: 40px;
+        margin: auto;
+        width: 90%;
+        height: 80vh;
+        // background-color: #eef7f7;
+        border-radius: 15px;
+        img {
+            width: 100%;
+            height: fit-content;
+        }
+        h1 {
+            margin: 3rem 0 2rem 0;
+            font-size: 30px;
+        }
+    }
+}
+
+// ------------  Copy From W3School
+
+/* Slideshow container */
+
+.Slide-title {
+    color: red;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.slideshow-container {
+    width: 90%;
+    background-color: #bbb;
+    max-width: 700px;
+    height: 700px;
+    position: relative;
+    margin: auto;
+    border-radius: 30px;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+.Slide-img {
+    width: 500px;
+    height: 600px;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+// Grphist Card
+.title-gr {
+    margin: 3rem 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cardContainer {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.prof {
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 200px;
+    height: 530px;
+    border-radius: 25px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-1 {
+    background-image: url("../Photo/Grphist/01-p.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.profile-2 {
+    background-image: url("../Photo/Grphist/02-p.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.profile-3 {
+    background-image: url("../Photo/Grphist/03-p.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.profile-4 {
+    background-image: url("../Photo/Grphist/04-p.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.profile-5 {
+    background-image: url("../Photo/Grphist/05-p.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.profile-6 {
+    background-image: url("../Photo/Grphist/06-p.jpg");
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #f5f5f5;
+}
+
+.name {
+    color: #f5f5f5;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.bio {
+    color: #e6e6e6;
+    margin-top: 7px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 40px;
+    margin: 0 20px;
+}
+
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardItem .value {
+    font-weight: bold;
+    font-size: 20px;
+    color: #f5f5f5;
+    padding: 5px;
+}
+
+.cardItem .title {
+    font-size: 14px;
+    color: #f5f5f5;
+    letter-spacing: 1px;
+}
+
+.follow {
+    width: 250px;
+    margin: 20px 25px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    color: #0093E9;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 40px;
+    font-size: 2rem;
+    margin: 40px 0 0 20px;
+}
+
+.more i {
+    font-size: 30px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+// ---------You can make your CV whit Us
+.make {
+    padding: 40px;
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    background-color: #eef7f7;
+    border-radius: 15px;
+    img {
+        width: 100%;
+        height: fit-content;
+    }
+    h1 {
+        margin-top: 3rem;
+        font-size: 24px;
+    }
+}

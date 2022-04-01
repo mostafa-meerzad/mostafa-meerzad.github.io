@@ -1,0 +1,72 @@
+h1 {
+  font-size: 40px;
+  margin: 5% 0;
+}
+
+.container {
+  background-color: #fdfdfd;
+  width: 80%;
+  text-align: center;
+  border-radius: 25%;
+}
+
+.container .row {
+  padding-bottom: 1.5rem;
+}
+
+.container .row .label {
+  margin-left: 4rem;
+  font-size: 20px;
+  display: block;
+  text-align: left;
+  color: #0becec;
+}
+
+.container .row .input {
+  width: 90%;
+  height: 3rem;
+  margin-left: 3rem;
+  border: none;
+  border-bottom: 0.5px solid gainsboro;
+  opacity: 0.5;
+}
+
+.container .row .form-select {
+  width: 90%;
+  height: 3rem;
+  margin-left: 3rem;
+  border: none;
+  border-bottom: 0.5px solid gainsboro;
+}
+
+.container .row .form-select-1 {
+  width: 29rem;
+}
+
+.container .graphist {
+  margin: 2rem 0;
+}
+
+.container .graphist .form-select {
+  width: 70%;
+  height: 3rem;
+  border: none;
+  border-bottom: 0.5px solid gainsboro;
+}
+
+.container .form-floating {
+  width: 100%;
+  margin-left: 10%;
+}
+
+.container .form-floating .form-control {
+  width: 80%;
+  margin: 1rem 0 2rem 0;
+  height: 250px !important;
+}
+
+.container .btn-1 {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=Main.css.map */
